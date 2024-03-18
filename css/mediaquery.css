@@ -1,0 +1,60 @@
+@media (max-width:900px){
+    .active{
+        display: none;
+    }
+    
+    #seprator{
+        display: none;
+    }
+   
+    #logo{
+        font-size: 2vw;
+    }
+
+    .ri-menu-3-fill{
+        display: block;
+        font-size: 3.5vw;
+        color: white;
+        cursor: pointer;
+        transition: display 1s ease-in-out;
+        z-index: 999;
+    }
+
+    .ri-close-fill{
+        /* display: block; */
+        font-size: 3.5vw;
+        color: white;
+        cursor: pointer;
+        transition: display 1s ease-in-out;
+        z-index: 999;
+    }
+
+}
+
+@media (max-width:600px) {
+    #logo{
+        font-size: 3vw;
+    }
+
+    .ri-menu-3-fill{
+        font-size: 5vw;
+    }
+
+    .ri-close-fill{
+        font-size: 6vw;
+    }
+}
+
+@media (max-width:400px) {
+    #logo{
+        font-size: 4vw;
+    }
+    
+    .ri-menu-3-fill{
+        font-size: 7vw;
+    }
+
+    .ri-close-fill{
+        font-size: 8vw;
+    }
+}
